@@ -1,0 +1,28 @@
+let month = prompt('Enter the month:')
+if (month === ('January'|| 'March' || 'May' || 'July' || 'August' || 'October' || 'December')) 
+{
+ console.log('It has 31 days.')
+}
+ else if ( month === ('April'||'June'||'September' ||  'November')) 
+{
+ console.log( 'It has 30 days.')
+}
+else if ( month === 'February' ) 
+{
+ console.log( ' It has 28 days.')
+}
+
+
+let month = prompt('Enter the month:')
+if (month === ('January'|| 'March' || 'May' || 'July' || 'August' || 'October' || 'December')) 
+{
+ console.log('It has 31 days.')
+}
+ else if ( month === ('April'||'June'||'September' ||  'November')) 
+{
+ console.log( 'It has 30 days.')
+}
+else if ( month === 'February' ) 
+{
+ console.log( ' It has 29 days.')
+}
