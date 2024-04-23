@@ -1,0 +1,63 @@
+let num = prompt('Enter the number:')
+if (num >= 90 && num <=100) {
+console.log('grade A')
+} 
+else if (num >=70)&& (num <=89) {
+console.log('grade B')
+} 
+else if (num >= 60 && num <=90)  {
+console.log('grade C')
+} 
+else if (num >= 50 && num <=59)  {
+    console.log('grade D.')
+    } 
+else {
+console.log('grade E')
+}
+
+
+
+let month = prompt('Enter the month:')
+if (month === ('September'|| 'October' || 'November')) {
+console.log('Autumn.')
+}
+ else if ( month === ('December'||'January'||'February')) {
+console.log('Winter.')
+}
+else if ( month === ('March' ||'April' ||'May')) {
+console.log('Spring')
+}
+else if ( month === ('June' ||'July '||'August')) {
+console.log('Summer')
+}
+
+
+
+let day1 = prompt('Enter the day:')
+let day = day1.toLowerCase()
+switch(day)
+{
+    case 'monday':
+        console.log('Monday is a working day.')
+        break
+    case 'tuesday':
+        console.log('tuesday is a working day.')
+        break
+    case 'wednesday':
+        console.log('wednesday is a working day.')
+        break
+    case 'thursday':
+        console.log('thursday is a working day.')
+        break
+    case 'friday':
+        console.log('friday is a working day.')
+        break
+    case 'saturday':
+        console.log('saturday is a weekend.')
+        break
+    case 'sunday':
+        console.log('sunday is a  weekend.')
+        break
+    default:
+        console.log('It is a not a week day.')
+}
